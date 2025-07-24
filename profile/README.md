@@ -56,32 +56,32 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 ---
 ## ✅ Test Coverage
 🔐 인증/인가 API  
-![erdcloud](sonarqube/auth_sonarqube.png)
+![erdcloud](dodream_sonarqube/auth.png)
 
 <br>
 
 🛒 장바구니 API  
-![erdcloud](sonarqube/cart_sonarqube.png)
+![erdcloud](dodream_sonarqube/cart.png)
 
 <br>
 
 🎟️ 쿠폰 API  
-![erdcloud](sonarqube/coupon_sonarqube.png)
+![erdcloud](dodream_sonarqube/coupon.png)
 
 <br>
 
 📦 주문 API  
-![erdcloud](sonarqube/order_sonarqube.png)
+![erdcloud](dodream_sonarqube/order.png)
 
 <br>
 
 👤 사용자 관리 API  
-![erdcloud](sonarqube/user_sonarqube.png)
+![erdcloud](dodream_sonarqube/user.png)
 
 <br>
 
 📚 도서 API  
-![erdcloud](sonarqube/book_sonarqube.png)
+![erdcloud](dodream_sonarqube/book.png)
 
 
 
