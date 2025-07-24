@@ -1,15 +1,15 @@
 # ![logo](doDreamLogo.ico) NHN24 Dodream Bookstore
 
-## 도메인
+## 🌐 도메인
 
 https://dodream.shop
 
-## 통합 API 문서
+## 📚 통합 API 문서
 
 https://dodream.shop/docs/index.html
 
 ---
-## 팀원소개
+## 🧑‍🤝‍🧑 팀원소개
 
 | 이주헌 | 김현진 | 임건우 | 송상진 
 |--------|--------|--------|--------|
@@ -21,14 +21,14 @@ https://dodream.shop/docs/index.html
 
 
 ---
-## ErdCloud
+## 🗂️ ErdCloud
 ![erdcloud](doDreamErdCloud.png)
 https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 
 
 
 ---
-## System Architecture
+## 🛠️ System Architecture
 ![erdcloud](doDreamArchitecture.png)
 
 
@@ -54,7 +54,7 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 
 
 ---
-## Test Coverage
+## ✅ Test Coverage
 🔐 인증/인가 API  
 ![erdcloud](sonarqube/auth_sonarqube.png)
 
@@ -87,7 +87,7 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 
 
 ---
-## 담당 업무
+## 💼 담당 업무
 
 ### 인프라
 * 담당자: 이주헌
