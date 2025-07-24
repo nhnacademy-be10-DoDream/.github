@@ -48,6 +48,14 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 
 
 
+---
+## 🚀 CI/CD
+<img width="1090" height="365" alt="image" src="https://github.com/user-attachments/assets/6492d4ec-64ce-4cff-a058-b1113901d84a" />
+
+- Main, Develop, Feature 브랜치를 사용하는 GitFlow 전략으로 진행하였고 GitHub Actions 를 통해 PR 단계에서는 Build 테스트와 Run 후 Health Check 성공 여부를 확인하고 성공시 Merge 가 이루어 집니다. Main 브랜치로 Merge 즉 포괄적으로 Push 가 완료되면 서버에 배포를 실행하도록 WorkFlows 를 구성했습니다.
+
+
+
 
 
 ---
