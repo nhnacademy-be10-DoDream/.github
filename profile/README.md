@@ -116,7 +116,7 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 
 ### 도서
 * 담당자: 송상진
-  - 도서 CRUD 및 출판사, 저자 CRUD
+  - 도서 CRUD 
   - 외부 API(알라딘, 네이버) 활용 도서 등록
   - TUI Editor 활용 도서 등록
   - Object Storage 및 이미지 관리 (임건우, 송상진)
