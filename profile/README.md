@@ -11,14 +11,9 @@ https://dodream.shop/docs/index.html
 ---
 ## 🧑‍🤝‍🧑 팀원소개
 
-| 이주헌 | 김현진 | 임건우 | 송상진 
-|--------|--------|--------|--------|
-| <a href="https://github.com/LeeJuheonT6138"><img src="https://github.com/LeeJuheonT6138.png" width="100px" /><br/><sub><b>이주헌</b></sub></a> | <a href="https://github.com/HJin-00"><img src="https://github.com/HJin-00.png" width="100px" /><br/><sub><b>김현진</b></sub></a> | <a href="https://github.com/GW000"><img src="https://github.com/GW000.png" width="100px" /><br/><sub><b>임건우</b></sub></a> | <a href="https://github.com/song-sang-jin"><img src="https://github.com/song-sang-jin.png" width="100px" /><br/><sub><b>송상진</b></sub></a> |
-
-| 유지석 | 차건희 | 박진환 |  
-|--------|--------|--------|
-| <a href="https://github.com/MonaLisaSy"><img src="https://github.com/MonaLisaSy.png" width="100px" /><br/><sub><b>유지석</b></sub></a> | <a href="https://github.com/gunheecha"><img src="https://github.com/gunheecha.png" width="100px" /><br/><sub><b>차건희</b></sub></a> | <a href="https://github.com/spdlqjxp"><img src="https://github.com/spdlqjxp.png" width="100px" /><br/><sub><b>박진환</b></sub></a> | &nbsp; |
-
+| 이주헌 | 김현진 | 임건우 | 송상진 | 유지석 | 차건희 | 박진환 |
+|--------|--------|--------|--------|--------|--------|--------|
+| <a href="https://github.com/LeeJuheonT6138"><img src="https://github.com/LeeJuheonT6138.png" width="120px" /><br/><sub><b>이주헌</b></sub></a> | <a href="https://github.com/HJin-00"><img src="https://github.com/HJin-00.png" width="120px" /><br/><sub><b>김현진</b></sub></a> | <a href="https://github.com/GW000"><img src="https://github.com/GW000.png" width="120px" /><br/><sub><b>임건우</b></sub></a> | <a href="https://github.com/song-sang-jin"><img src="https://github.com/song-sang-jin.png" width="120px" /><br/><sub><b>송상진</b></sub></a> | <a href="https://github.com/MonaLisaSy"><img src="https://github.com/MonaLisaSy.png" width="120px" /><br/><sub><b>유지석</b></sub></a> | <a href="https://github.com/gunheecha"><img src="https://github.com/gunheecha.png" width="120px" /><br/><sub><b>차건희</b></sub></a> | <a href="https://github.com/spdlqjxp"><img src="https://github.com/spdlqjxp.png" width="120px" /><br/><sub><b>박진환</b></sub></a> |
 
 
 ---
