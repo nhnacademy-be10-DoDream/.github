@@ -40,8 +40,7 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 ### Cloudflare → Nginx
 
 - Cloudflare Edge Server가 SSL 해제 (Flexible 모드 기준)
-- 캐시 확인 후 없으면 원 서버(Origin Server)로 요청 전달
-  - 예 http://<origin-server>:80       
+- 캐시 확인 후 없으면 원 서버(Origin Server)로 요청 전달     
 - 원 서버에서는 Nginx가 80 포트에서 요청 수신
 - 모든 요청은 Nginx를 거쳐 내부 애플리케이션으로 전달 (proxy_pass)
 
