@@ -29,12 +29,15 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 ![erdcloud](doDreamArchitecture.png)
 
 
-사용자가 브라우저에서 API 요청을 보내면, 해당 요청은 먼저 Cloudflare에서 수신되어 
-보안 및 최적화 처리를 거친 뒤 Nginx로 전달됩니다.
-Nginx는 리버스 프록시 및 로드 밸런싱을 수행한 후 요청을 Gateway로 넘기며,
-Gateway는 이 요청에 대해 Eureka 서버에 등록된 마이크로서비스 목록 중 
-적절한 인스턴스를 조회하여 동적으로 라우팅합니다.
-한편, Logstash는 MySQL 데이터를 주기적으로 확인하여 변경 사항이 감지되면 이를 Elasticsearch 인덱스에 동기화하여 저장합니다.
+- 사용자가 브라우저에서 API 요청을 보내면, 해당 요청은 먼저 Cloudflare에서 수신되어 보안 및 최적화 처리를 거친 후 Nginx로 전달됩니다. </br>
+Nginx는 리버스 프록시와 로드 밸런싱을 수행한 뒤 요청을 Gateway에 전달하고, </br>
+Gateway는 클라이언트로부터 전달받은 JWT 토큰을 검증하여 사용자 인증 및 인가 처리를 수행한 후, </br>
+Eureka 서버에 등록된 마이크로서비스 목록 중 적절한 인스턴스를 조회해 인증된 사용자 정보를 포함한 요청을 내부 서비스로 동적으로 라우팅합니다. </br>
+
+- User 서비스는 회원가입이나 구매 등 이벤트가 발생했을 때 RabbitMQ를 통해 메시지를 비동기적으로 발행하고, </br>
+Coupon 서비스는 해당 메시지를 소비하여 쿠폰 발급 등 후속 작업을 처리합니다. </br>
+또한, Logstash는 MySQL 데이터를 주기적으로 확인하여 변경 사항이 감지되면, </br>
+이를 Elasticsearch 인덱스에 자동으로 동기화하여 검색 및 분석 시스템에서 활용할 수 있도록 지원합니다.
 
 
 
