@@ -41,8 +41,6 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 
 - Cloudflare Edge Server가 SSL 해제 (Flexible 모드 기준)
 - 캐시 확인 후 없으면 아래 주소로 요청 전달  
-  'http://220.67.216.11:80'  
-- 220.67.216.11: 서버의 공인 IP
 - Nginx는 80 포트에서 요청 수신
 - 모든 요청은 Nginx를 거쳐 내부 애플리케이션으로 전달 (proxy_pass)
 
