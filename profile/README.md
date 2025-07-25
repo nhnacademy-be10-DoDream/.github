@@ -29,20 +29,12 @@ https://www.erdcloud.com/d/nHdEc6k4QQA34zRwr
 ![erdcloud](doDreamArchitecture.png)
 
 
-### 사용자 (브라우저) → Cloudflare
-
-- 사용자가 'https://dodream.shop' 입력
-- 브라우저가 DNS 질의 수행
-- Cloudflare가 가장 가까운 Edge Server IP 반환  
-- 공인 IP 노출 없이 요청 처리 (보안상 이점)
-- 해당 Edge 서버에 HTTPS 요청 전달
-
-### Cloudflare → Nginx
-
-- Cloudflare Edge Server가 SSL 해제 (Flexible 모드 기준)
-- 캐시 확인 후 없으면 원 서버(Origin Server)로 요청 전달     
-- 원 서버에서는 Nginx가 80 포트에서 요청 수신
-- 모든 요청은 Nginx를 거쳐 내부 애플리케이션으로 전달 (proxy_pass)
+사용자가 브라우저에서 API 요청을 보내면, 해당 요청은 먼저 Cloudflare에서 수신되어 
+보안 및 최적화 처리를 거친 뒤 Nginx로 전달됩니다.
+Nginx는 리버스 프록시 및 로드 밸런싱을 수행한 후 요청을 Gateway로 넘기며,
+Gateway는 이 요청에 대해 Eureka 서버에 등록된 마이크로서비스 목록 중 
+적절한 인스턴스를 조회하여 동적으로 라우팅합니다.
+한편, Logstash는 MySQL 데이터를 주기적으로 확인하여 변경 사항이 감지되면 이를 Elasticsearch 인덱스에 동기화하여 저장합니다.
 
 
 
